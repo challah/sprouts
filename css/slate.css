@@ -2310,7 +2310,7 @@ body {
 	flex: 0 0 188px;
 	transition: top .3s, left .3s, opacity .3s
 }
-/*.tile-box {
+.tile-box {
 	height: 188px;
 	max-height: 188px;
 	width: 188px;
@@ -2322,8 +2322,8 @@ body {
 	font-size: 28px;
 	vertical-align: middle;
 	text-align: center;
-	display: table-cell;
-}*/
+	display: table-cell
+}
 .tile-link {
 	color: #000;
 	text-decoration: none
@@ -2345,7 +2345,7 @@ body {
 	white-space: nowrap
 }
 
-.tile-box:hover img {
+.tile:hover img {
   opacity: 0.3;
 }
 
@@ -2358,9 +2358,11 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+color: aqua;
 }
 
-.tile-box:hover .text {
+
+.text:hover {
   opacity: 1;
 }
 

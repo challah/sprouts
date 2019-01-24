@@ -2358,11 +2358,10 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-color: aqua;
 }
 
 
-.text:hover {
+.tile:hover .text {
   opacity: 1;
 }
 

@@ -2326,6 +2326,10 @@ body {
 	line-height: 188px;
 }
 
+.sprouty-container:hover .sprouty-text {
+	opacity: 1
+}
+
 .tile-box {
 	height: 188px;
 	max-height: 188px;
@@ -2359,10 +2363,6 @@ body {
 	text-overflow: ellipsis;
 	transition: color .3s;
 	white-space: nowrap
-}
-
-.sprouty-container:hover .sprouty-text {
-	opacity: 1
 }
 
 .tile:hover img {

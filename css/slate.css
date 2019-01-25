@@ -2310,6 +2310,22 @@ body {
 	flex: 0 0 188px;
 	transition: top .3s, left .3s, opacity .3s
 }
+
+.sprouty-container {
+	height: 188px;
+	width: 188px;
+	position: relative;
+}
+
+.sprouty-text {
+	z-index: 100;
+	position: absolute;
+	opacity: 0;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 188px;
+}
+
 .tile-box {
 	height: 188px;
 	max-height: 188px;
@@ -2343,6 +2359,10 @@ body {
 	text-overflow: ellipsis;
 	transition: color .3s;
 	white-space: nowrap
+}
+
+.sprouty-container:hover .sprouty-text {
+	opacity: 1
 }
 
 .tile:hover img {
